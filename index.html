@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Work In Progress - Paragoumba.fr</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="matrix"></canvas>
+    <div class="title">
+        <h1 id="typed"></h1>
+    </div>
+    <script src="js/matrix.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+        var h1Typed = new Typed("#typed", {
+            strings: ["Work In Progress", "Update Incoming", "Under Construction"],
+            typeSpeed: 200,
+            backSpeed: 100,
+            startDelay: 1000,
+            loop: true
+        });
+        var titleTyped = new Typed("title", {
+            strings: ["", "Wake up, Neo...", "The Matrix has you...", "Follow the white rabbit.", "Knock, knock, Neo."],
+            typeSpeed: 200,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+</html>
